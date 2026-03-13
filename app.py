@@ -8,7 +8,7 @@ st.title("🤖 My Personal AI Agent")
 # API Key সেটআপ
 API_KEY = "AIzaSyAEr-bY2XV2wuFWkUtCWS1jXYudiFMW7sg"
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('models/gemini-1.5-flash')
 
 # চ্যাট হিস্ট্রি মেনটেইন করা
 if "messages" not in st.session_state:
