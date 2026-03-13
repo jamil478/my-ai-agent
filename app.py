@@ -6,7 +6,7 @@ st.set_page_config(page_title="My AI Agent", layout="centered")
 st.title("🤖 My Personal AI Agent")
 
 # আপনার API Key (সরাসরি বসানো হয়েছে)
-API_KEY = "AIzaSyAEr-bY2XV2wuFWkUtCWS1jXYudiFMW7sg"
+API_KEY = "AIzaSyDZOHXZOHBKHJWjLfrm9m9MFQHcsvBcZHw"
 genai.configure(api_key=API_KEY)
 
 # এখানে শুধু 'gemini-pro' ব্যবহার করুন, কোনো স্লাশ বা অতিরিক্ত ভার্সন ছাড়া
